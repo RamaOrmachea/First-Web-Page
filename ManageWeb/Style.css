@@ -1,0 +1,475 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
+
+body {
+    background-image: url("Contenido/bg-simplify-section-desktop.svg");
+    background-attachment: fixed;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0px 20px 80px;
+}
+
+header img {
+    width: 146px;
+    height: 24px;
+    padding-top: 10px;
+}
+
+.btnnav {
+    position: relative;
+    left: 70px;
+}
+
+.btncard {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+#lista1 {
+    text-decoration: none;
+    text-align: center;
+    font-weight: 600;
+    padding: 15px;
+    color: rgb(35, 44, 81);
+}
+
+.lista {
+    column-count: 2;
+    gap: 4rem;
+    line-height: 2rem;
+
+}
+
+#lista1:hover {
+    border-color: rgb(242, 95, 58);
+    box-shadow: 0 0 10px rgb(242, 95, 58);
+}
+
+
+.lista li a {
+    text-decoration: none;
+    color: rgb(249, 249, 249);
+}
+
+
+#lista2 {
+    padding: 15px;
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(249, 249, 249);
+}
+
+#lista3 {
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(249, 249, 249);
+}
+
+.section1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lateralizq {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 130px;
+}
+
+.section2 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 130px;
+    height: 675px;
+}
+
+h1 {
+    color: rgb(35, 44, 81);
+    font-weight: 700;
+    font-size: 48px;
+    width: 400px;
+}
+
+h2 {
+    color: rgb(35, 44, 81);
+    font-weight: 700;
+}
+
+.titulocentro {
+    font-size: 28px;
+}
+
+h3 {
+    color: rgb(35, 44, 81);
+    font-weight: 700;
+}
+
+h2.titulofooter {
+    color: rgb(249, 249, 249);
+    font-weight: 500px;
+}
+
+.Numero1::before {content: "01";
+    
+    color: rgb(249, 249, 249);
+    background-color: rgb(242, 95, 58);
+    border-radius: 40px;
+    position: absolute;
+    left: -40px;
+}
+
+.Numero1{position: relative;}
+
+.Numero2::before {content: "02";
+    
+    color: rgb(249, 249, 249);
+    background-color: rgb(242, 95, 58);
+    border-radius: 40px;
+    position: absolute;
+    left: -40px;
+
+
+}
+
+.Numero2{position:relative}
+
+.Numero3::before {content: "03";
+    
+    color: rgb(249, 249, 249);
+    background-color: rgb(242, 95, 58);
+    padding: 0,2rem;
+    border-radius: 40px;
+    margin-right: 2rem;
+    position: absolute;
+    left: -40px;
+}
+
+.Numero3{position: relative;}
+
+p {
+    color: rgb(143, 148, 167);
+    font-size: 16px;
+    width: 350px;
+    line-height: 1.70rem
+
+}
+
+p.derechos {
+    text-align: right;
+    margin-bottom: 0rem;
+    margin-top: 2.5rem;
+    font-size: 16px;
+}
+
+
+button {
+    width: 120px;
+    height: 39px;
+    background-color: rgb(242, 95, 58);
+    color: rgb(249, 249, 249);
+    border-radius: 35px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Be Vietnam Pro';
+}
+
+.btnfooter {
+    color: rgb(242, 95, 58);
+    background-color: rgb(249, 249, 249);
+}
+
+.btnfooter:hover {
+    border-color: rgb(249, 249, 249);
+    box-shadow: 0 0 10px rgb(249, 249, 249);
+}
+
+.btnform {
+    width: 70px;
+    height: 39px;
+    background-color: rgb(242, 95, 58);
+    color: rgb(249, 249, 249);
+    border-radius: 35px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Be Vietnam Pro';
+}
+
+.btnform:hover {
+    border-color: rgb(249, 249, 249);
+    box-shadow: 0 0 10px rgb(242, 95, 58);
+}
+
+
+
+button:hover {
+
+    border-color: rgb(249, 249, 249);
+    box-shadow: 0 0 10px rgb(242, 95, 58);
+}
+
+.footer1 {
+    background-color: rgb(242, 95, 58);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer2 {
+    background-color: rgb(29, 30, 37);
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4rem;
+    padding-right: 8rem;
+    padding-bottom: 3rem;
+    padding-left: 8rem;
+}
+
+
+.fa-brands {
+    color: rgb(249, 249, 249)
+}
+
+.fa-brands {
+    padding: 5px;
+}
+
+
+li.card1 {
+    height: 40px;
+    display: inline-block;
+    width: 370px;
+}
+
+li.card2 {
+    height: 40px;
+    display: inline-block;
+    width: 370px;
+}
+
+li.card2 {
+    height: 40px;
+    display: inline-block;
+    width: 370px;
+}
+
+
+.biografias {
+    text-align: center;
+    height: 650px;
+}
+
+.biografiasfondo {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 5rem 0rem 0rem 0rem;
+    padding-left: 0px;
+}
+
+.biografiasfondo li {
+    background-color: rgb(143, 148, 167, 0.1);
+    height: inherit;
+    justify-content: space-between;
+}
+
+.biografiasfondo img {
+    position: relative;
+    top: -3rem;
+    height: 15vh;
+}
+
+.footerlateralizquierdo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.lateralderechofooter {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+.iconos {
+    position: absolute;
+    bottom: 0px;
+}
+
+input:hover {
+    outline: none;
+    border-color: rgb(249, 249, 249);
+    box-shadow: 0 0 10px rgb(249, 249, 249);
+}
+
+.email {
+    border-radius: 50px;
+    height: 40px;
+}
+
+.biografiasfondo li img:hover {
+    transform: scale(0.9);
+}
+
+.biografiasfondo li:hover {
+    border-color: rgb(143, 148, 167);
+    box-shadow: 0 0 10px rgb(143, 148, 167);
+}
+
+.fa-facebook-square:hover{color: #1877f2;}
+.fa-youtube:hover{color: #c4302b;}
+.fa-twitter:hover{color: #00acee;}
+.fa-pinterest:hover{color: #E60023;}
+.fa-instagram:hover{color: #833AB4;}
+
+
+.lista li a:hover {
+    color: rgb(242, 95, 58);
+}
+
+.hamb{
+    display: none;
+}
+
+
+@media screen and (max-width: 600px) {
+
+body{background-image: url("Contenido/imagenes/bg-simplify-section-mobile.svg")
+;background-attachment: fixed;
+background-repeat: no-repeat;
+}
+    .nav a {
+        display: none;
+    }
+
+    .hamb{
+        display:block;
+        ;}
+
+        .hamb a i{
+            color:rgb(0, 0, 0);
+            font-size: 1.5rem;
+        }
+    
+        .hamb a i:hover{
+            color: rgb(242, 95, 58);
+        }
+
+    header {
+        margin-left: 0px;
+    }
+
+    .section1 {
+        flex-direction: column-reverse;
+    }
+
+    h1{font-size: 36px;}
+
+    .lateralizq {
+        margin: 0%;
+        padding-left: 3.5rem;
+    }
+
+
+    .section2 {
+        flex-direction: column;
+        margin-left: 0px;
+        align-items: center;
+        width: 65vh;
+    }
+
+     .titular{
+        padding-left: 3.5rem;
+     }
+
+    .btnmain {
+        margin-left: 112px
+    }
+
+    ul.biografiasfondo {
+        flex-direction: column;
+    }
+
+    .footer1 {
+        flex-direction: column;
+        height: 250px;
+    }
+
+    .footer2 {
+        flex-direction: column-reverse;
+        justify-items: center;
+        padding: 0rem;
+    }
+
+    .footerlateralizquierdo {
+        flex-direction: column-reverse;
+       
+    }
+
+ 
+    
+    .biografiasfondo li.card2 {
+        display: none;
+    }
+
+    .biografiasfondo li.card3 {
+        display: none;
+    }
+
+    .fa-brands {
+        font-size: 1.5rem;
+    }
+
+    .icono {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 0.001rem;
+        margin-top: 5rem;
+        margin-bottom: 3rem;
+        margin-left: 1.5rem;
+        flex-direction: column;
+        width: 80vw;
+    }
+
+    .icono::after {
+        content: "Copyright 2020. All Rights Reserved";
+        color: rgb(249, 249, 249);
+        margin-top: 6rem;
+        font-size: 0.5rem;
+    }
+
+    .derechos {
+        display: none;
+    }
+
+    .media {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .lateralderechofooter {
+
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2rem;}
+
+.biografias{display: flex;
+    flex-direction: column;
+align-items: center;
+justify-content: flex-end;
+
+
+    }
+
+    }
